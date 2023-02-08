@@ -1,0 +1,70 @@
+strong, b, em, and i tags
+<!-- 
+    we have two tags that bolden the text which are <b> and <strong>.
+    However, STRONG adds more meaning than B. use strong.
+
+    we have two tags that italicize the text which are <i> and <em> (emphsize).
+    However, EM adds more meaning than I. use EM.    
+-->
+
+ordered lsit attributes: <ol></ol>
+<!--
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+
+**you can also specify the number you want to start with. e.g. <ol start='7'>
+-->
+
+unordered list attributes: <ul></ul>
+<!--
+Value	Description
+disc	Sets the list item marker to a bullet (default)
+circle	Sets the list item marker to a circle
+square	Sets the list item marker to a square
+none	The list items will not be marked
+-->
+
+tables structure:
+<table>
+    <!--tables also has header, body, and footer. you can ignore them, but they're useful for editing the style.
+    *table has many attributes to style the table. however, they are DEPRECATED. no longer used. not recommended. better use css for styling.-->
+    <thead> //the header
+        <th>//the col name</th>
+        <th>//the col name</th>
+    </thead>
+
+    <tbody>
+        <tr>//row 
+            <td>the cell data</td>
+            <td>the cell data</td>
+        </tr>
+        <tr>//row 
+            <td>the cell data</td>
+            <td>the cell data</td>
+        </tr>
+    </tbody>
+
+    <tfoot></tfoot>
+    <!--we can directly use the tags within the table without using thead, tbody, and tfoot since the output won't change.
+    However, if we want to style the table and add some css and js, it would be useful to have the table nested properly.-->
+</table>
+Forms:
+<!--
+The HTML <form> element is used to create an HTML form for user input.
+It is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.        
+ HTML <input> element is the most used form element to specify the type of input.  
+<input> is a self closing tag
+-->
+
+Forms- mailto:
+<!--    
+To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:
+<p><a href="mailto:someone@example.com">Send email</a></p>
+OR
+
+-->
+
